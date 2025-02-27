@@ -14,7 +14,7 @@ body {
   font-family: "Raleway", sans-serif;
   padding: 60px;
 
-  background-image: url("../assets/background.png"); /* Caminho da imagem */
+  background-image: url("./assets/background.png"); /* Caminho da imagem */
   background-size: cover; /* Cobre toda a área, mantendo proporção */
   background-position: center; /* Centraliza a imagem */
   background-repeat: no-repeat; /* Evita repetição da imagem */

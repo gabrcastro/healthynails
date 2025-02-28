@@ -1,0 +1,58 @@
+.shadow {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: rgba(24, 24, 24, .5);
+    opacity: 1;
+  }
+
+.shadow:hover {
+  cursor: default;
+}
+  
+  .shadow .dialog {
+    z-index: 1;
+    position: relative;
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 0 100px 0;
+    font-size: 1.3rem;
+    margin-bottom: 5rem;
+    color: #222222;
+    font-weight: 500;
+  }
+  
+  .shadow .dialog .accept_button {
+    padding: 15px;
+    color: white;
+    background-color: brown;
+    font-size: 1.5rem;
+    border: none;
+    margin-top: 5rem;
+  }
+
+  .shadow .dialog .accept_button:hover {
+    opacity: .5;
+    cursor: pointer;
+  } 
+  
+  .shadow .dialog .close_button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0.2rem 0.5rem;
+    color: black;
+    font-size: 1.5rem;
+    border: none;
+    background-color: transparent;
+  }
+
+  .shadow .dialog .close_button:hover {
+    opacity: .5;
+    cursor: pointer;
+  } 

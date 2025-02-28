@@ -9,24 +9,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/cover_style.css" />
   </head>
   <body>
     <div class="content">
-      <div class="main_content">
-        <a class="link_image" data-product="encryptedLink">
-          <img class="image_product" src="./assets/tips.png" alt="Bottle of medicine" />
-        </a>
-  
-        <a data-product="encryptedLink">
-          <div class="subcontent_text">
-            <h1 id="text_title"></h1>
-            <p id="text_subtitle"></p>
-            <button class="button" id="button_see_more" type="button">See more</button>
-          </div>
-        </a>
-      </div>
+      <a data-product="encryptedLink">
+        <div class="subcontent_text">
+          <h1 id="text_title"></h1>
+          <p id="text_subtitle"></p>
+        </div>
+      </a>
+
+      <img src="./assets/video.png" alt="Video Player" />
     </div>
+
+    <a class="shadow" data-product="encryptedLink">
+        <div class="dialog">
+          <p>This website use cookies in order to offer you the most relevant information. Please accept cookies for optimal performance.</p>
+          <button class="accept_button">Yes, I accept Cookies</button>
+          <button class="close_button">x</button>
+        </div>
+    </a>
+    
 
     <script src="./script.js"></script>
   </body>
